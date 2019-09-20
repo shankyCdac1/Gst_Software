@@ -157,6 +157,7 @@ public class GstDashboard extends JFrame {
 		}
 	}
     public String h() {return "";}
+    public String gth() {return "";}
 	public void getallvaluesafterCalculation() {
 		int dis = Integer.parseInt(discount.getText());
 		// GROSS Amount
