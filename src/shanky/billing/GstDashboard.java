@@ -202,7 +202,7 @@ public class GstDashboard extends JFrame {
 		try {
 			commonMethod(
 					"select sum(round(((SellPrice*Quantity)-((SellPrice*Quantity)/100))*Discount,2)) from invoicetable where Invoice_No = '"
-							+ invoiceNo.getText() + "'");
+							+ invoiceNo.getText() + "'"); 
 			igst_value.setText(total);
 		} catch (Exception e) {
 		}
